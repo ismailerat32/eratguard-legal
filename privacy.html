@@ -83,34 +83,122 @@ ul, ol {
 }
 </style>
 
+
+<style id="eratguard-accordion-v4">
+.eg-accordion {
+  margin: 8px 0;
+  border: 1px solid #28513a;
+  border-radius: 10px;
+  background: #13271c;
+  overflow: hidden;
+}
+.eg-accordion summary {
+  padding: 12px 14px;
+  color: #59ed98;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+.eg-accordion summary::-webkit-details-marker {
+  display: none;
+}
+.eg-accordion summary::after {
+  content: "+";
+  float: right;
+  font-size: 20px;
+  line-height: 1;
+}
+.eg-accordion[open] summary::after {
+  content: "−";
+}
+.eg-accordion-content {
+  padding: 0 14px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.eg-accordion-content p,
+.eg-accordion-content li {
+  overflow-wrap: anywhere;
+}
+</style>
+
 </head>
 <body>
 <main>
 <h1>EratGuard PRO Gizlilik Politikası</h1>
 <p><strong>Son güncelleme:</strong> 15 Ekim 2026</p>
 <p>EratGuard PRO, kullanıcıların SMS iletişimini yönetmesine ve istenmeyen mesajları tespit etmesine yardımcı olan bir Android güvenlik uygulamasıdır.</p>
-<h2>1. İşlenen bilgiler</h2>
+
+<details class="eg-accordion">
+<summary>1. İşlenen bilgiler</summary>
+<div class="eg-accordion-content">
 <p>Uygulama, sağladığı özelliklere ve verilen izinlere bağlı olarak SMS/MMS mesajlarını, gönderen numaralarını, mesaj içeriklerini, kullanıcı tercihlerini, engelleme listelerini, güvenlik analizlerini ve hesap bilgilerini işleyebilir.</p>
-<h2>2. SMS izinleri</h2>
+
+</div>
+</details>
+
+<details class="eg-accordion">
+<summary>2. SMS izinleri</summary>
+<div class="eg-accordion-content">
 <p>EratGuard PRO, varsayılan SMS uygulaması olarak çalışması ve mesaj güvenliği özelliklerini sunması için READ_SMS, RECEIVE_SMS, SEND_SMS, RECEIVE_MMS ve RECEIVE_WAP_PUSH izinlerini kullanabilir. Bu izinler mesajları görüntüleme, alma, gönderme ve şüpheli içerikleri analiz etme işlevleriyle ilişkilidir.</p>
-<h2>3. Bilgilerin kullanım amacı</h2>
+
+</div>
+</details>
+
+<details class="eg-accordion">
+<summary>3. Bilgilerin kullanım amacı</summary>
+<div class="eg-accordion-content">
 <ul>
 <li>SMS ve MMS işlevlerini sağlamak</li>
 <li>Spam ve dolandırıcılık girişimlerini tespit etmeye yardımcı olmak</li>
 <li>Engelleme listelerini ve kullanıcı tercihlerini yönetmek</li>
 <li>Hesap, lisans ve güvenlik özelliklerini çalıştırmak</li>
 </ul>
-<h2>4. Veri paylaşımı</h2>
+
+</div>
+</details>
+
+<details class="eg-accordion">
+<summary>4. Veri paylaşımı</summary>
+<div class="eg-accordion-content">
 <p>EratGuard PRO, SMS ve mesaj verilerini reklam hedeflemesi amacıyla kullanmayı veya satmayı amaçlamaz. Hizmetin çalışması için kullanılan sunucu ve hizmet sağlayıcılarıyla gerçekleştirilen veri işlemleri, ilgili işlevin gerektirdiği kapsamla sınırlı olmalıdır.</p>
-<h2>5. Veri güvenliği ve saklama</h2>
+
+</div>
+</details>
+
+<details class="eg-accordion">
+<summary>5. Veri güvenliği ve saklama</summary>
+<div class="eg-accordion-content">
 <p>Verilerin korunması için uygun teknik ve idari güvenlik önlemleri uygulanması hedeflenir. Saklama süreleri veri türüne, hizmetin gerekliliklerine ve geçerli yasal yükümlülüklere bağlı olabilir.</p>
-<h2>6. Kullanıcı hakları ve veri silme</h2>
+
+</div>
+</details>
+
+<details class="eg-accordion">
+<summary>6. Kullanıcı hakları ve veri silme</summary>
+<div class="eg-accordion-content">
 <p>Kullanıcılar hesap ve ilgili verilerinin silinmesi hakkında bilgi almak veya hesap silme işlemini başlatmak için aşağıdaki sayfayı ziyaret edebilir:</p>
 <p><a href="account-deletion.html">Hesap ve Veri Silme</a></p>
-<h2>7. Değişiklikler</h2>
+
+</div>
+</details>
+
+<details class="eg-accordion">
+<summary>7. Değişiklikler</summary>
+<div class="eg-accordion-content">
 <p>Bu gizlilik politikası uygulama özellikleri veya yasal gereklilikler değiştiğinde güncellenebilir.</p>
-<h2>8. İletişim</h2>
+
+</div>
+</details>
+
+<details class="eg-accordion">
+<summary>8. İletişim</summary>
+<div class="eg-accordion-content">
 <p>EratGuard PRO destek: <a href="mailto:eratguard.security@gmail.com">eratguard.security@gmail.com</a></p>
+
+</div>
+</details>
 </main>
 </body>
 </html>
